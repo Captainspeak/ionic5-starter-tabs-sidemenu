@@ -3,9 +3,10 @@ import { NavController } from '@ionic/angular';
 import { UserDetailService } from '../services/user-detail.service';
 
 @Component({
-  selector: 'app-auth',
-  templateUrl: './auth.page.html',
-  styleUrls: ['./auth.page.scss'],
+    selector: 'app-auth',
+    templateUrl: './auth.page.html',
+    styleUrls: ['./auth.page.scss'],
+    standalone: false
 })
 export class AuthPage implements OnInit {
   constructor(
